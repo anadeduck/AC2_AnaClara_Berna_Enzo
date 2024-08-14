@@ -20,4 +20,4 @@ else:
     classificacao="Informe altura e peso validos"
 if st.button("Calcular IMC"):
     st.write(f"Seu IMC é:{imc:.2f}")
-    st.write("fClassificacao: {classificacao}")
+    st.write(f"Classificacao: {classificacao}")
