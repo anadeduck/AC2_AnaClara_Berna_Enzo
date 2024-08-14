@@ -8,7 +8,7 @@
 
  #Crie uma aplicação (online) que leia o código do item pedido e a quantidade. Calcule o valor a ser pago por cliente. Caso não seja informado algum código da lista, deve-se informar que o código do lanche é inválido.
 
- import streamlit as st
+import streamlit as st
 
  st.title( "Cardapio Lanchonete:")
  st.write( "Escolha seu lanche:")
