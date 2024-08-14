@@ -1,15 +1,5 @@
-# 5.      ( 2 pontos) O cardápio de uma lanchonete é o seguinte:
- #LANCHE          CÓDIGO      VALOR
- #Cachorro Quente  101         8,50
- #Bauru Simples    102         4,50
- #Hambúrger        104         5,50
-#Cheeseburger      105         6,60
-#Refrigerante      106         6,00
-
- #Crie uma aplicação (online) que leia o código do item pedido e a quantidade. Calcule o valor a ser pago por cliente. Caso não seja informado algum código da lista, deve-se informar que o código do lanche é inválido.
-
 import streamlit as st
-
+compras = 0
 st.title( "Cardapio Lanchonete:")
 st.write( "Escolha seu lanche:")
 st.write("Cachorro quente - 101")
@@ -27,10 +17,11 @@ while True:
   else:
     st.write("Clique em calcular para ver o valor total do seu pedido")
     break
-  calcular_bottom = st.sidebar.button("Calcular")
-  if calcular_bottom:
+calcular_bottom = st.sidebar.button("Calcular")
+if calcular_bottom:
+    
      while True:
-      compras = 0
+      
       if codigo == 101:
         compras = quant * 8.50
       elif codigo == 102:
