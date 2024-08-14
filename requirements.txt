@@ -1,5 +1,0 @@
-SpeechRecognition==3.10.1
-streamlit==1.30.0
-sounddevice==0.5.0
-wave==3.4
-
