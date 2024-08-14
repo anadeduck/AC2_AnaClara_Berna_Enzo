@@ -10,4 +10,4 @@ if calcular_bottom:
     ano = atual - nascimento
     mes = ano * 12
     dia = ano * 365
-    st.success('f Voce tem {ano} anos, {mes} meses e {dia} dias aproximadamente')
+    st.success(f'Voce tem {ano} anos, {mes} meses e {dia} dias aproximadamente')
