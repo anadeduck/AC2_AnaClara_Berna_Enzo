@@ -10,15 +10,15 @@
 
 import streamlit as st
 
- st.title( "Cardapio Lanchonete:")
- st.write( "Escolha seu lanche:")
- st.write("Cachorro quente - 101")
- st.write( "Bauru simples - 102")
- st.write( "Hamburguer - 104" )
- st.write( "Cheeseburguer - 105" )
- st.write( "Refrigerante - 106")
- st.sidebar.header("Me informe algumas coisas:")
- while True:
+st.title( "Cardapio Lanchonete:")
+st.write( "Escolha seu lanche:")
+st.write("Cachorro quente - 101")
+st.write( "Bauru simples - 102")
+st.write( "Hamburguer - 104" )
+st.write( "Cheeseburguer - 105" )
+st.write( "Refrigerante - 106")
+st.sidebar.header("Me informe algumas coisas:")
+while True:
   codigo = st.sidebar.number_input("Digite qual o código do seu pedido:")
   quant = st.sidebar.number_input("Quantos itens você deseja?")
   add = st.sidebar.number_input("deseja adicionar mais algum item? (1 - sim e 2 - não) ")
