@@ -41,5 +41,5 @@ while True:
         compras = quant * 6.60
       elif codigo == 106:
         compras = quant * 6
- st.write(f"O valor da sua compra é: {compras}")
+st.write(f"O valor da sua compra é: {compras}")
 
