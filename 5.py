@@ -28,7 +28,7 @@ while True:
     st.write("Clique em calcular para ver o valor total do seu pedido")
     break
   calcular_bottom = st.sidebar.button("Calcular")
-   if calcular_bottom:
+  if calcular_bottom:
      while True:
       compras = 0
       if codigo == 101:
